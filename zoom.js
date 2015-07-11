@@ -1,4 +1,4 @@
-var detectedEffectDescription = {};
+detectedEffectDescription = {};
 
 var onNotify = function(notify) {
   if (notify != null && notify.effect_descriptions != null) {
@@ -10,7 +10,7 @@ var onNotify = function(notify) {
     g_metaEffect.onNotify.remove(onNotify);
   }
 };
-  
+
 function simple() {
   var ratio = document.getElementById("ratio").value;
   var xpos = document.getElementById("xpos").value;
