@@ -55,7 +55,7 @@ charset = iso - 8859 - 1 " />
     onClick="simple()"/>
 </p>
 
-<script src="https://raw.githubusercontent.com/audioandpixels/hangouts-zoom/master/zoom.js"></script>
+<script src="https://rawgit.com/audioandpixels/hangouts-zoom/master/zoom.js"></script>
 
 ]]>
 </Content>
