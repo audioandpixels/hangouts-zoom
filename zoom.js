@@ -23,12 +23,11 @@ function simple() {
 
   metaEffect.initEffects(effectChain);
   metaEffect.pipelineEffects(effectChain);
-  alert("This ran!")
 }
 
 function init() {
   gapi.hangout.onApiReady.add(function(eventObj) {
-    console.log("everything ready");
+    console.log("Hangouts Zoom Ready");
     document.querySelector('#fullUI').style.visibility = 'visible';
   });
 }
