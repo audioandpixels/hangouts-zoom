@@ -5,8 +5,8 @@ function simple() {
 
   var cropProps = {
     topLeft: {
-      x: ratio / 2 ,
-      y: ratio / 2
+      x: (1 - ratio) / 2 ,
+      y: (1 - ratio) / 2
     },
     width: ratio,
     height: ratio
