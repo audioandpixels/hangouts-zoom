@@ -45,7 +45,6 @@ charset = iso - 8859 - 1 " />
 <body>
 
 <script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
-<script src="https://hangoutmediastarter.appspot.com/static/html5slider.js"></script>
 
 <center>
 
@@ -53,7 +52,7 @@ charset = iso - 8859 - 1 " />
 <p>
 <br/>
 <input class="button" type="button" value="Good day!" id="topHatButton"
-    onClick="sayGoodDay()"/>
+    onClick="simple()"/>
 </p>
 
 <script src="https://plushangoutstartershadow.appspot.com/static/mediaStarter.js"></script>
