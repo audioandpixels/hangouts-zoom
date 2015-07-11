@@ -23,7 +23,7 @@ function simple() {
 
   metaEffect.initEffects(effectChain);
   metaEffect.pipelineEffects(effectChain);
-
+  alert("This ran!")
 }
 
 function init() {
