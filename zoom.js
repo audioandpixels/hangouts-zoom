@@ -4,6 +4,7 @@ function simple() {
 
   var cropProps = {
     'height': 250,
+    'top_left': 0,
     'width': 250
   };
 
