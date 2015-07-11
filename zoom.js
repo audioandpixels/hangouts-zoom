@@ -1,14 +1,15 @@
 function simple() {
+  var ratio = document.getElementsByName("ratio").value;
   var metaEffect = gapi.hangout.av.effects.createMetaEffect();
   var effectChain = [];
 
   var cropProps = {
     topLeft: {
-      x: 0.25,
-      y: 0.25
+      x: 0.5,
+      y: 0.5
     },
-    width: .5,
-    height: .5
+    width: ratio,
+    height: ratio
   };
 
   var zoomEffect = metaEffect.createSubEffect('crop', cropProps);

@@ -19,6 +19,7 @@
         <center>
           <p>
             <br/>
+            <input type="number" name="ratio">
             <input class="button" type="button" value="Apply Filter" id="topHatButton" onClick="simple()"/>
           </p>
         </center>
