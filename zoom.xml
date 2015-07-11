@@ -18,8 +18,8 @@
         <center>
           <p>
             <br/>
-            <input id="xpos" type="number" name="ratio">
-            <input id="ypos" type="number" name="ratio">
+            <input id="xpos" type="number" name="xpos">
+            <input id="ypos" type="number" name="ypos">
             <br/>
             <input id="ratio" type="number" name="ratio">
             <input class="button" type="button" value="Apply Filter" id="topHatButton" onClick="simple()"/>
