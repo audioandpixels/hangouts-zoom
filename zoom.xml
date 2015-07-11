@@ -15,7 +15,6 @@
 
       <body>
         <script src="//plus.google.com/hangouts/_/api/dev/hangout.js"></script>
-        <script src="https://rawgit.com/audioandpixels/hangouts-zoom/master/zoom.js"></script>
         <center>
           <p>
             <br/>
@@ -23,6 +22,7 @@
             <input class="button" type="button" value="Apply Filter" id="topHatButton" onClick="simple()"/>
           </p>
         </center>
+        <script src="https://rawgit.com/audioandpixels/hangouts-zoom/master/zoom.js"></script>
       </body>
     ]]>
   </Content>
