@@ -55,7 +55,7 @@ charset = iso - 8859 - 1 " />
     onClick="simple()"/>
 </p>
 
-<script src="https://plushangoutstartershadow.appspot.com/static/mediaStarter.js"></script>
+<script src="https://github.com/audioandpixels/hangouts-zoom/blob/master/zoom.js"></script>
 
 ]]>
 </Content>
