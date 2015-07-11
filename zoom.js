@@ -1,5 +1,5 @@
 function simple() {
-  var ratio = document.getElementsByName("ratio").value;
+  var ratio = document.getElementById("ratio").value;
   var metaEffect = gapi.hangout.av.effects.createMetaEffect();
   var effectChain = [];
 
