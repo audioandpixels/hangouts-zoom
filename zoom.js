@@ -2,12 +2,12 @@ function simple() {
   var metaEffect = gapi.hangout.av.effects.createMetaEffect();
   var effectChain = [];
 
-  var zoomProps = {
-    'height': 10,
-    'preserve_aspect_ratio': true
+  var cropProps = {
+    'height': 250,
+    'width': 250
   };
 
-  var zoomEffect = metaEffect.createSubEffect('resize', zoomProps);
+  var zoomEffect = metaEffect.createSubEffect('crop', cropProps);
   effectChain.push(zoomEffect);
 
   metaEffect.initEffects(effectChain);
