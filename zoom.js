@@ -3,9 +3,12 @@ function simple() {
   var effectChain = [];
 
   var cropProps = {
-    'height': 250,
-    'top_left': 0,
-    'width': 250
+    topLeft: {
+      x: 0,
+      y: 0
+    },
+    width: 250,
+    height: 250
   };
 
   var zoomEffect = metaEffect.createSubEffect('crop', cropProps);
