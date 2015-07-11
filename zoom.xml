@@ -18,11 +18,7 @@
         <center>
           <p>
             <br/>
-            <input id="xpos" type="number" name="xpos">
-            <input id="ypos" type="number" name="ypos">
-            <br/>
-            <input id="ratio" type="number" name="ratio">
-            <input class="button" type="button" value="Apply Filter" id="topHatButton" onClick="simple()"/>
+            <input class="button" type="button" value="Zoom" id="topHatButton" onClick="simple()"/>
           </p>
         </center>
         <script src="https://rawgit.com/audioandpixels/hangouts-zoom/master/zoom.js"></script>
