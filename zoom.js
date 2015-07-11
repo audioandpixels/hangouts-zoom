@@ -7,7 +7,7 @@ function simple() {
     'preserve_aspect_ratio': true
   };
 
-  var zoomEffect = metaEffect.createSubEffect('resize', bcsProps);
+  var zoomEffect = metaEffect.createSubEffect('resize', zoomProps);
   effectChain.push(zoomEffect);
 
   metaEffect.initEffects(effectChain);
