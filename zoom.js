@@ -3,7 +3,7 @@ function simple() {
   var effectChain = [];
 
   var zoomProps = {
-    'height': 4096,
+    'height': 10,
     'preserve_aspect_ratio': true
   };
 
