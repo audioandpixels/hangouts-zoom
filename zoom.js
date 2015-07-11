@@ -4,11 +4,11 @@ function simple() {
 
   var cropProps = {
     topLeft: {
-      x: 0,
-      y: 0
+      x: 0.25,
+      y: 0.25
     },
-    width: 250,
-    height: 250
+    width: .5,
+    height: .5
   };
 
   var zoomEffect = metaEffect.createSubEffect('crop', cropProps);
